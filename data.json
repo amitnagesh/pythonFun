@@ -1,0 +1,18 @@
+{
+	"maps": [{
+			"id": "smita",
+			"iscategorical": "100"
+		},
+		{
+			"id": "amit",
+			"iscategorical": "0"
+		}
+	],
+	"masks": [{
+		"id": "valore"
+	}],
+	"om_points": "amitnagesh",
+	"parameters": [{
+		"id": "valore"
+	}]
+}
