@@ -1,0 +1,26 @@
+<myroot>
+    <project name="801">
+        <projecttype>apple</projecttype>
+        <test hello="world" brackets="angled" question="answers"/>
+        <comment>This is a comment</comment>
+        <path>path802</path>
+    </project>
+    <project name="456">
+        <projecttype>banana</projecttype>
+        <test hello="world" brackets="angled" question="answers"/>
+        <comment>This is a comment</comment>`
+        <path>path456</path>
+    </project>
+    <project name="802">
+        <projecttype>orange</projecttype>
+        <path>path802</path>
+        <test brackets="round" hello="greeting">
+            <number>111</number>
+        </test>
+        <dates>
+              <modified>123</modified>
+              <created>253</created>
+              <accessed>44</accessed>
+        </dates>
+    </project>
+</myroot>
