@@ -1,3 +1,6 @@
+#!/usr/bin/python
+import sys
+
 def listToDict(lst):
     op = { i : lst[i] for i in range(0, len(lst) ) }
     return op
@@ -9,17 +12,16 @@ def readFileToList(file):
     file_content_list = [line.replace(' ', '') for line in lines] # Replace white space from each line
     return file_content_list
 
-file_name_1 = 'Master.xml'
-file_name_2 = 'Slave.xml'
+file_name_1 = sys.argv[1]
+file_name_2 = sys.argv[2]
 master_list = readFileToList(file_name_1)
 slave_list = readFileToList(file_name_2)
 diff_list = [x for x in master_list + slave_list if x not in master_list or x not in slave_list]
- 
-print (diff_list)   #print diff as list 
-# print (listToDict(diff_list)) #print diff as dict
 
 if not diff_list:
-    print(file_name_1 + " and " + file_name_2 + " contents are same")
+    print (file_name_1 + " and " + file_name_2 + " contents are same\n")
 else:
-    print(file_name_1 + " and " + file_name_2 + " contents are NOT same")
+    print (file_name_1 + " and " + file_name_2 + " contents are NOT same\n")
 
+print (diff_list)   #print diff as list 
+# print (listToDict(diff_list)) #print diff as dict
