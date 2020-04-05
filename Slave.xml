@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sample id="1">
+CONFIG_A=Y
+<workflow value="x" version="1"/>
+  <results>
+   <result type="Q">
+      <result_data type="value" value="11"/>
+      <result_data type="value" value="21"/>
+      <result_data type="value" value="13"/>
+      <result_data type="value" value="12"/>
+      <result_data type="value" value="15"/>
+    </result>
+  </results>
+</sample>
