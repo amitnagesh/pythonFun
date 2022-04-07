@@ -1,0 +1,3 @@
+ABC00 Explicit is better than implicit. 
+ABC11 Simple is better than complex.
+ABC22 Have been stopped at immigration again.
